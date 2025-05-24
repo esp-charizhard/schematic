@@ -7984,16 +7984,6 @@
 		)
 		(uuid "4d1d0e1d-6328-4181-ad1f-b72f9e9ab103")
 	)
-	(label "EEDO"
-		(at 276.86 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4dd1b582-7805-495c-be91-61f549a161af")
-	)
 	(label "RMII_RXD0"
 		(at 344.17 73.66 0)
 		(effects
@@ -8013,6 +8003,16 @@
 			(justify left bottom)
 		)
 		(uuid "50a93b38-a2d9-49a1-82b4-db03a79e2954")
+	)
+	(label "EEDI"
+		(at 276.86 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54c805e8-374f-4c16-bdeb-54919d443200")
 	)
 	(label "SENSOR_RST"
 		(at 320.04 154.94 180)
@@ -8394,16 +8394,6 @@
 		)
 		(uuid "aca4020b-8198-4f3a-8ec0-d60b5690e566")
 	)
-	(label "EEDI"
-		(at 276.86 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b175d3c0-25e8-4924-b402-2f1ca7cacc5d")
-	)
 	(label "PHY_RST"
 		(at 298.45 73.66 180)
 		(effects
@@ -8533,6 +8523,16 @@
 			(justify left bottom)
 		)
 		(uuid "d71b834a-fde0-47b3-8c1f-bfc95938f9e7")
+	)
+	(label "EEDO"
+		(at 276.86 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7bc4138-34bb-4ebb-a0f8-38f30136842e")
 	)
 	(label "SENSOR_MOSI"
 		(at 320.04 147.32 180)
