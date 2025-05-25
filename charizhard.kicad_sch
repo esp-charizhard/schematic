@@ -6930,6 +6930,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 63.5) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50372f28-6eac-401c-8b51-57d4a0f7645a")
+	)
+	(wire
+		(pts
 			(xy 281.94 24.13) (xy 281.94 27.94)
 		)
 		(stroke
@@ -6967,6 +6977,16 @@
 			(type default)
 		)
 		(uuid "5f19256b-c919-431f-86a7-b6eb5d84532a")
+	)
+	(wire
+		(pts
+			(xy 128.27 60.96) (xy 132.08 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6127f298-5de7-4139-b8fb-de7812c70821")
 	)
 	(wire
 		(pts
@@ -7320,6 +7340,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 58.42) (xy 132.08 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8449059-37e5-4f8c-baf3-8fe9ce29590f")
+	)
+	(wire
+		(pts
 			(xy 143.51 162.56) (xy 139.7 162.56)
 		)
 		(stroke
@@ -7527,6 +7557,16 @@
 			(type default)
 		)
 		(uuid "c9354f3d-0e81-4074-bbb6-43e712a3b3f9")
+	)
+	(wire
+		(pts
+			(xy 128.27 66.04) (xy 137.16 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9906066-554e-452a-951a-7f371b275577")
 	)
 	(wire
 		(pts
@@ -8009,7 +8049,7 @@
 		(uuid "322eb7b5-ecdc-4376-a633-27a5d3d0c46c")
 	)
 	(label "USB3_TXDM{slash}SSRX-"
-		(at 137.16 60.96 180)
+		(at 128.27 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8029,7 +8069,7 @@
 		(uuid "36895e40-4dea-4a2e-a8ec-0fa97491c150")
 	)
 	(label "USB3_RXDP{slash}SSTX+"
-		(at 137.16 63.5 180)
+		(at 128.27 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8189,7 +8229,7 @@
 		(uuid "5e9f64f4-4994-443e-9907-ac717c3ed100")
 	)
 	(label "USB3_TXDP{slash}SSRX+"
-		(at 137.16 58.42 180)
+		(at 128.27 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8309,7 +8349,7 @@
 		(uuid "84bbdb00-3f48-4fe4-b3ce-b8a6383acad4")
 	)
 	(label "USB3_RXDM{slash}SSTX-"
-		(at 137.16 66.04 180)
+		(at 128.27 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12489,6 +12529,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 134.62 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "744d1978-2f98-4824-a9d0-1eac693ee0c0")
+		(property "Reference" "C12"
+			(at 135.382 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.588 55.88 90)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a0a77854-d866-40f3-96d1-a492b3a6473b")
+		)
+		(pin "1"
+			(uuid "4c8c8a5a-b2df-4f6c-9ac2-2066946ab067")
+		)
+		(instances
+			(project "charizhard"
+				(path "/5faa4c25-1746-428d-9bc9-7befcb644a99"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ECS-250-18-33Q-DS:ECS-250-18-33Q-DS")
 		(at 270.51 148.59 0)
 		(unit 1)
@@ -13325,6 +13434,76 @@
 			(project "charizhard"
 				(path "/5faa4c25-1746-428d-9bc9-7befcb644a99"
 					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 134.62 60.96 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a34ebdde-6e1e-4acd-a4f5-4bf4cb918fbf")
+		(property "Reference" "C23"
+			(at 135.382 59.944 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.842 61.214 0)
+			(effects
+				(font
+					(size 0.9 0.9)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 134.62 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bca3dcf6-5ccd-412e-86c2-615db515beb1")
+		)
+		(pin "1"
+			(uuid "8803ecb8-e778-4903-a218-149d91d60855")
+		)
+		(instances
+			(project "charizhard"
+				(path "/5faa4c25-1746-428d-9bc9-7befcb644a99"
+					(reference "C23")
 					(unit 1)
 				)
 			)
