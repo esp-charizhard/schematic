@@ -72,7 +72,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            503480 Series 0.5mm Pitch 10 Way Right Angle SMT Male FPC Connector, Solder | Molex Incorporated 503480-1000\n                        \n"
+			(property "Description_1" "503480 Series 0.5mm Pitch 10 Way Right Angle SMT Male FPC Connector, Solder | Molex Incorporated 503480-1000"
 				(at 0 0 0)
 				(effects
 					(font
@@ -410,20 +410,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U5"
-				(at 0 9.652 0)
+			(property "Reference" "U"
+				(at -10.16 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "AMS1117-3.3"
-				(at 0 6.604 0)
+				(at -10.16 -8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "AMS1117-3.3:SOT229P700X180-4N"
@@ -792,20 +794,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
-				(at 0 19.05 0)
+			(property "Reference" "J"
+				(at -10.16 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "USB3_A Port USB"
-				(at 0 16.51 0)
+			(property "Value" "USB3_A"
+				(at 10.16 15.24 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -1223,7 +1227,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 12.7 -2.54 180)
 					(length 2.54)
 					(name "SSRX-"
@@ -1241,7 +1245,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin output line
 					(at 12.7 -5.08 180)
 					(length 2.54)
 					(name "SSRX+"
@@ -1259,7 +1263,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 12.7 -10.16 180)
 					(length 2.54)
 					(name "SSTX-"
@@ -1277,7 +1281,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin input line
 					(at 12.7 -12.7 180)
 					(length 2.54)
 					(name "SSTX+"
@@ -1654,6 +1658,15 @@
 					(hide yes)
 				)
 			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -1961,7 +1974,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            25 MHz ±30ppm Crystal 18pF 40 Ohms 4-SMD, No Lead\n                        \n"
+			(property "Description_1" "25 MHz ±30ppm Crystal 18pF 40 Ohms 4-SMD, No Lead"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2118,6 +2131,226 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ECS-250-18-33Q-DS_1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at -12.7278 5.0911 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "ECS-250-18-33Q-DS"
+				(at -12.7198 -7.6319 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ECS-250-18-33Q-DS:XTAL_ECS-250-18-33Q-DS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "ECS Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "25 MHz ±30ppm Crystal 18pF 40 Ohms 4-SMD, No Lead"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "ECX-33Q-33Q-4 ECS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECS-250-18-33Q-DS/ECS/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "ECS-250-18-33Q-DS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/ECS-250-18-33Q-DS/ECS/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "ECS-250-18-33Q-DS_1_0_0"
+				(rectangle
+					(start -12.7 -5.08)
+					(end 12.7 5.08)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "IN/OUT"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "OUT/IN"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LAN7800-I_Y9X_1"
 			(pin_names
 				(offset 0.254)
@@ -2133,7 +2366,7 @@
 					)
 				)
 			)
-			(property "Value" "LAN7800-I/Y9X Controleur USB to Ethernet"
+			(property "Value" "LAN7800-I/Y9X USB-ETH Controller"
 				(at 48.26 -55.88 0)
 				(effects
 					(font
@@ -2425,7 +2658,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -27.94 0)
 					(length 7.62)
 					(name "TR0N"
@@ -2443,7 +2676,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -30.48 0)
 					(length 7.62)
 					(name "TR0P"
@@ -2461,7 +2694,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -33.02 0)
 					(length 7.62)
 					(name "TR1N"
@@ -2479,7 +2712,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -35.56 0)
 					(length 7.62)
 					(name "TR1P"
@@ -2497,7 +2730,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -38.1 0)
 					(length 7.62)
 					(name "TR2N"
@@ -2515,7 +2748,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -40.64 0)
 					(length 7.62)
 					(name "TR2P"
@@ -2533,7 +2766,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -43.18 0)
 					(length 7.62)
 					(name "TR3N"
@@ -2551,7 +2784,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -45.72 0)
 					(length 7.62)
 					(name "TR3P"
@@ -2569,7 +2802,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -48.26 0)
 					(length 7.62)
 					(name "USBRBIAS"
@@ -2587,7 +2820,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 96.52 0 180)
 					(length 7.62)
 					(name "VDD12_SW_OUT"
@@ -2605,7 +2838,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 96.52 -2.54 180)
 					(length 7.62)
 					(name "VDD25_REG_OUT"
@@ -2677,7 +2910,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 96.52 -17.78 180)
 					(length 7.62)
 					(name "REF_FILT"
@@ -2695,7 +2928,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 96.52 -20.32 180)
 					(length 7.62)
 					(name "REF_REXT"
@@ -2749,7 +2982,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 96.52 -33.02 180)
 					(length 7.62)
 					(name "USB3_RXDM"
@@ -2767,7 +3000,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 96.52 -35.56 180)
 					(length 7.62)
 					(name "USB3_RXDP"
@@ -2785,7 +3018,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 96.52 -38.1 180)
 					(length 7.62)
 					(name "USB3_TXDM"
@@ -2803,7 +3036,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 96.52 -40.64 180)
 					(length 7.62)
 					(name "USB3_TXDP"
@@ -3195,7 +3428,7 @@
 					)
 				)
 			)
-			(property "Value" "LAN7800-I/Y9X Controleur USB to Ethernet"
+			(property "Value" "LAN7800-I/Y9X USB-ETH Controller"
 				(at 48.26 -55.88 0)
 				(effects
 					(font
@@ -3487,7 +3720,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -27.94 0)
 					(length 7.62)
 					(name "TR0N"
@@ -3505,7 +3738,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -30.48 0)
 					(length 7.62)
 					(name "TR0P"
@@ -3523,7 +3756,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -33.02 0)
 					(length 7.62)
 					(name "TR1N"
@@ -3541,7 +3774,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -35.56 0)
 					(length 7.62)
 					(name "TR1P"
@@ -3559,7 +3792,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -38.1 0)
 					(length 7.62)
 					(name "TR2N"
@@ -3577,7 +3810,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -40.64 0)
 					(length 7.62)
 					(name "TR2P"
@@ -3595,7 +3828,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -43.18 0)
 					(length 7.62)
 					(name "TR3N"
@@ -3613,7 +3846,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin bidirectional line
 					(at 0 -45.72 0)
 					(length 7.62)
 					(name "TR3P"
@@ -3631,7 +3864,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 0 -48.26 0)
 					(length 7.62)
 					(name "USBRBIAS"
@@ -3649,7 +3882,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 96.52 0 180)
 					(length 7.62)
 					(name "VDD12_SW_OUT"
@@ -3667,7 +3900,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin power_in line
 					(at 96.52 -2.54 180)
 					(length 7.62)
 					(name "VDD25_REG_OUT"
@@ -3739,7 +3972,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 96.52 -17.78 180)
 					(length 7.62)
 					(name "REF_FILT"
@@ -3757,7 +3990,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 96.52 -20.32 180)
 					(length 7.62)
 					(name "REF_REXT"
@@ -3811,7 +4044,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 96.52 -33.02 180)
 					(length 7.62)
 					(name "USB3_RXDM"
@@ -3829,7 +4062,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at 96.52 -35.56 180)
 					(length 7.62)
 					(name "USB3_RXDP"
@@ -3847,7 +4080,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 96.52 -38.1 180)
 					(length 7.62)
 					(name "USB3_TXDM"
@@ -3865,7 +4098,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 96.52 -40.64 180)
 					(length 7.62)
 					(name "USB3_TXDP"
@@ -4305,7 +4538,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description_1" "\n                        \n                            2/2 Transceiver Full RMII 24-QFN-EP (4x4)\n                        \n"
+			(property "Description_1" "2/2 Transceiver Full RMII 24-QFN-EP (4x4)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4863,6 +5096,372 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_1_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_2_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_2_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -6259,12 +6858,6 @@
 		(uuid "3a63797a-cafd-4e24-ac41-090a08e1549d")
 	)
 	(junction
-		(at 40.64 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e983d34-a4f5-46e9-ae18-5def99e184f7")
-	)
-	(junction
 		(at 146.05 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6281,6 +6874,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b1058af-b2e2-431e-97cd-451f57b25a9b")
+	)
+	(junction
+		(at 44.45 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57cfbb9f-2e46-4e59-ae9f-38a0b79f5119")
 	)
 	(junction
 		(at 241.3 55.88)
@@ -6688,6 +7287,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 25.4) (xy 104.14 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a63dc1f-12e9-4a85-af2b-bfa6236bd323")
+	)
+	(wire
+		(pts
 			(xy 345.44 165.1) (xy 353.06 165.1)
 		)
 		(stroke
@@ -6715,6 +7324,16 @@
 			(type default)
 		)
 		(uuid "214de8a3-3048-4801-9b4f-d1aed31f6593")
+	)
+	(wire
+		(pts
+			(xy 182.88 139.7) (xy 182.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25dd9470-05c3-4798-877a-5e6c0979d26d")
 	)
 	(wire
 		(pts
@@ -7428,16 +8047,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 139.7) (xy 182.88 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7d1c9f7-db19-4d2f-ac97-d63884c2032a")
-	)
-	(wire
-		(pts
 			(xy 312.42 96.52) (xy 323.85 96.52)
 		)
 		(stroke
@@ -7468,7 +8077,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 25.4) (xy 68.58 25.4)
+			(xy 40.64 25.4) (xy 44.45 25.4)
 		)
 		(stroke
 			(width 0)
@@ -7505,6 +8114,16 @@
 			(type default)
 		)
 		(uuid "c53c003e-d78e-4225-bcaa-3f395d2480ee")
+	)
+	(wire
+		(pts
+			(xy 113.03 25.4) (xy 116.84 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c858809d-22a5-417a-a0f4-2bbaf0ec8ed0")
 	)
 	(wire
 		(pts
@@ -7555,6 +8174,16 @@
 			(type default)
 		)
 		(uuid "cbe5edab-b51b-4d09-8e6e-b85bd8a503a9")
+	)
+	(wire
+		(pts
+			(xy 44.45 25.4) (xy 68.58 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1f01c2-3212-481c-8ff2-195e1a973e6a")
 	)
 	(wire
 		(pts
@@ -7655,16 +8284,6 @@
 			(type default)
 		)
 		(uuid "e8f21730-2492-4928-a4aa-f370ed768b26")
-	)
-	(wire
-		(pts
-			(xy 107.95 25.4) (xy 104.14 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e98b67ee-8682-4989-9961-6690ccbb4aa2")
 	)
 	(wire
 		(pts
@@ -7785,16 +8404,6 @@
 			(type default)
 		)
 		(uuid "fa1b355e-bbef-47be-9d03-6782666cd3cb")
-	)
-	(wire
-		(pts
-			(xy 113.03 25.4) (xy 116.84 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fba25753-5756-415e-86d3-e488ec66d7c4")
 	)
 	(wire
 		(pts
@@ -11606,6 +12215,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_1")
 		(lib_id "Device:LED")
 		(at 88.9 49.53 90)
 		(unit 1)
@@ -11651,6 +12261,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 88.9 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 88.9 49.53 0)
 			(effects
 				(font
@@ -12511,7 +13130,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal SMB 25MHz 3225:XTAL_ECS-250-18-33Q-DS"
+		(property "Footprint" "ECS-250-18-33Q-DS:XTAL_ECS-250-18-33Q-DS"
 			(at 270.51 148.59 0)
 			(effects
 				(font
@@ -12549,7 +13168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            25 MHz ±30ppm Crystal 18pF 40 Ohms 4-SMD, No Lead\n                        \n"
+		(property "Description_1" "25 MHz ±30ppm Crystal 18pF 40 Ohms 4-SMD, No Lead"
 			(at 270.51 148.59 0)
 			(effects
 				(font
@@ -13077,7 +13696,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MOLEX5034801000:MOLEX_5034801000"
+		(property "Footprint" "5034801000:MOLEX_5034801000"
 			(at 363.22 157.48 0)
 			(effects
 				(font
@@ -13115,7 +13734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            503480 Series 0.5mm Pitch 10 Way Right Angle SMT Male FPC Connector, Solder | Molex Incorporated 503480-1000\n                        \n"
+		(property "Description_1" "503480 Series 0.5mm Pitch 10 Way Right Angle SMT Male FPC Connector, Solder | Molex Incorporated 503480-1000"
 			(at 363.22 157.48 0)
 			(effects
 				(font
@@ -13730,6 +14349,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 92.71 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "35bb6433-b9af-4b14-b41c-e80f6fad3011")
 		)
@@ -14208,6 +14836,7 @@
 		)
 	)
 	(symbol
+		(lib_name "ECS-250-18-33Q-DS_1")
 		(lib_id "ECS-250-18-33Q-DS:ECS-250-18-33Q-DS")
 		(at 270.51 127 0)
 		(unit 1)
@@ -14232,7 +14861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal SMB 25MHz 3225:XTAL_ECS-250-18-33Q-DS"
+		(property "Footprint" "ECS-250-18-33Q-DS:XTAL_ECS-250-18-33Q-DS"
 			(at 270.51 127 0)
 			(effects
 				(font
@@ -14270,7 +14899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            25 MHz ±30ppm Crystal 18pF 40 Ohms 4-SMD, No Lead\n                        \n"
+		(property "Description_1" "25 MHz ±30ppm Crystal 18pF 40 Ohms 4-SMD, No Lead"
 			(at 270.51 127 0)
 			(effects
 				(font
@@ -15522,7 +16151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LAN7800:48SQFN-5304-7X7B_MCH"
+		(property "Footprint" "48SQFN-5304-7X7B_MCH"
 			(at 233.68 99.06 0)
 			(effects
 				(font
@@ -16055,7 +16684,7 @@
 		(dnp no)
 		(uuid "de4d6dfe-0b81-4707-8d66-a0f4775ff8df")
 		(property "Reference" "U2"
-			(at 219.964 143.764 0)
+			(at 231.14 177.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -16063,14 +16692,14 @@
 			)
 		)
 		(property "Value" "LAN7800-I/Y9X USB-ETH Controller"
-			(at 214.884 144.272 90)
+			(at 231.14 175.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Footprint" "LAN7800:48SQFN-5304-7X7B_MCH"
+		(property "Footprint" "48SQFN-5304-7X7B_MCH"
 			(at 182.88 119.38 0)
 			(effects
 				(font
@@ -16616,7 +17245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LAN8720A:QFN50P400X400X100-25N"
+		(property "Footprint" "LAN8720A-CP:QFN50P400X400X100-25N"
 			(at 346.71 78.74 0)
 			(effects
 				(font
@@ -16654,7 +17283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description_1" "\n                        \n                            2/2 Transceiver Full RMII 24-QFN-EP (4x4)\n                        \n"
+		(property "Description_1" "2/2 Transceiver Full RMII 24-QFN-EP (4x4)"
 			(at 346.71 78.74 0)
 			(effects
 				(font
@@ -16904,6 +17533,7 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_2")
 		(lib_id "Device:LED")
 		(at 92.71 220.98 180)
 		(unit 1)
@@ -16948,6 +17578,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 92.71 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
 			(at 92.71 220.98 0)
 			(effects
 				(font
@@ -17437,6 +18076,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 44.45 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5b4a274-304b-4683-ac2b-ea7a94585727")
+		(property "Reference" "#FLG01"
+			(at 44.45 23.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V"
+			(at 44.45 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d88f1e4-f363-4801-819f-d9f0bbccb0c3")
+		)
+		(instances
+			(project ""
+				(path "/5faa4c25-1746-428d-9bc9-7befcb644a99"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 290.83 124.46 270)
 		(unit 1)
@@ -17630,73 +18335,6 @@
 			(project "charizhard"
 				(path "/5faa4c25-1746-428d-9bc9-7befcb644a99"
 					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 40.64 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "faec99d7-cec1-4419-83bc-733fce36bdcc")
-		(property "Reference" "#FLG01"
-			(at 40.64 23.495 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "5V"
-			(at 43.18 24.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 40.64 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9768a987-ec0f-4dda-8a4c-a70c4b149968")
-		)
-		(instances
-			(project ""
-				(path "/5faa4c25-1746-428d-9bc9-7befcb644a99"
-					(reference "#FLG01")
 					(unit 1)
 				)
 			)
