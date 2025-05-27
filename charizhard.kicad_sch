@@ -6271,12 +6271,6 @@
 		(uuid "400b5ad6-70e8-4215-b945-8c0e0de38872")
 	)
 	(junction
-		(at 318.77 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "458b6913-cc39-4d6b-938e-a814c5c12698")
-	)
-	(junction
 		(at 281.94 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6467,12 +6461,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd2ab4f5-d448-4eb2-9272-63d6e37fe82e")
-	)
-	(junction
-		(at 318.77 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4ebae28-499b-4deb-af05-2fc662e8f74e")
 	)
 	(junction
 		(at 182.88 142.24)
@@ -6780,7 +6768,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 93.98) (xy 323.85 93.98)
+			(xy 312.42 93.98) (xy 323.85 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6810,16 +6798,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 101.6) (xy 318.77 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aa235fe-f39f-414c-bb88-0b1334446d7e")
-	)
-	(wire
-		(pts
 			(xy 134.62 140.97) (xy 138.43 140.97)
 		)
 		(stroke
@@ -6837,16 +6815,6 @@
 			(type default)
 		)
 		(uuid "3b89e3b4-997c-4076-8431-b77a8831dbe9")
-	)
-	(wire
-		(pts
-			(xy 323.85 101.6) (xy 323.85 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f51a6a3-7972-48ac-91ef-4927cadec5b4")
 	)
 	(wire
 		(pts
@@ -7147,16 +7115,6 @@
 			(type default)
 		)
 		(uuid "81e3ae85-9e7c-49d2-a65e-0203d6bd17d6")
-	)
-	(wire
-		(pts
-			(xy 312.42 93.98) (xy 318.77 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "824ec294-3d25-46dd-8229-80b26928bf80")
 	)
 	(wire
 		(pts
@@ -7480,7 +7438,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 101.6) (xy 323.85 101.6)
+			(xy 312.42 96.52) (xy 323.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8279,7 +8237,7 @@
 		(uuid "73e8142d-9d36-478c-997c-428e35584a1b")
 	)
 	(label "TR0P{slash}RXN"
-		(at 312.42 101.6 180)
+		(at 312.42 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12386,75 +12344,6 @@
 			(project "charizhard"
 				(path "/5faa4c25-1746-428d-9bc9-7befcb644a99"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 318.77 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "700ce778-7e72-4e41-866f-fd5e4bdf6acc")
-		(property "Reference" "R14"
-			(at 313.69 97.536 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100Ω"
-			(at 318.77 99.314 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 316.992 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 318.77 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 318.77 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39f29af5-fc84-44b0-83b0-4ffeaa513c0d")
-		)
-		(pin "1"
-			(uuid "123c4850-d27b-4c56-b07b-ec3ede75f219")
-		)
-		(instances
-			(project "charizhard"
-				(path "/5faa4c25-1746-428d-9bc9-7befcb644a99"
-					(reference "R14")
 					(unit 1)
 				)
 			)
